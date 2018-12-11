@@ -1,0 +1,26 @@
+<div class="bodyTeste">
+  <div class="top">
+    <img class="img1" src="../assets/lion.jpg">
+    <h1>Lion.Inc</h1>
+  </div>
+  <div align="center">
+        <br>
+      <br>
+      <div class="container">
+        <img src="../assets/lion.jpg" width="200px">
+        <br>
+        <br>
+        <h2>Login</h2>
+        <br>
+        <form [formGroup]="loginForm" (ngSubmit)="logar()">
+          <input type="text" placeholder="Login" name="login" formControlName="inputLogin" required>
+          <br>
+          <input type="password" placeholder="Senha" name="senha" formControlName="inputSenha" required>
+          <br>
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </div>
+  <div class="bottom">
+  </div>
+</div>

@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.bodyTeste{
+	background-image: linear-gradient(to right, red, purple, orange);
+}
+
+.top{
+	width: 100%;
+	background-color: #1a75ff;
+}
+
+.bottom{
+	width: 100%;
+	background-color: #1a75ff;
+	height: 100px;
+	margin-top: 220px;
+}
+
+.img1{
+	border: 1px solid white;
+	border-radius: 10px;
+	width: 90px;
+	margin: 10px;
+}
+
+.img2{
+	border: 3px solid #1a75ff;
+	border-radius: 200px;
+	width: 200px;
+	margin-top: 20px;
+}
+
+h1{
+	float: right;
+	margin-top: 40px;
+	margin-right: 1120px;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #1a75ff;
+	margin-top: 25px;
+}
+
+a{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #1a75ff;
+	text-decoration: none;
+}
